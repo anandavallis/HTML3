@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informational Webpage</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0; 
+        }
+        body {
+            font-family: Arial, sans-serif;
+            border-color: black;
+			border-style: solid;
+			border-width: 5px;
+       }
+        h1{
+            background-color: #333;
+            color:black;
+        }
+        nav, h1{
+            margin-left: 20px;
+        } 
+        nav {
+            
+            background-color: black;
+            color: white;
+            margin-left: 20px;
+        }
+          nav ul {
+            padding: 2px;
+        
+        }  
+        nav ul li {
+            display: inline;
+            
+        }
+        nav ul li  {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 5px;
+        
+        }
+         main {
+            display: flex;
+            padding: 30px;
+        }  
+        section {
+            flex: 5;
+            padding: 15px; 
+            
+        }
+        img,p{
+            padding: 5px;
+        }
+        aside{
+            flex: 1;
+            padding: 10px;
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Kitten Kare</h1>
+    <nav>
+        <ul>
+            <li>Home |</li>
+            <li>About |</li>
+            <li>Services |</li>
+            
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Welcome !</h2>
+        <img src="bear2.jpeg" alt="bear2 image" width="300" height="300">
+        <p>Bears are large, powerful mammals belonging to the Ursidae family, known for their thick fur, strong claws, and omnivorous diets. They inhabit various regions across North America, Asia, and Europe, with different species like black, brown, and polar bears. 
+            Bears are known for their ability to hibernate during winter, conserving energy when food is scarce.</p>
+    </section>
+
+    <aside>
+        <h3>Cat body types</h3>
+        <ul>
+                <li>Oriental</li>
+                <li>Foreign</li>
+                <li>Semi-Foreign</li>
+                <li>Semi-Cobby</li>
+                <li>Cobby</li>
+        </ul>
+    </aside>
+</main>
+</div>
+</body>
+</html>
