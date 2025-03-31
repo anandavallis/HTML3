@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Page</title>
+</head>
+<body>
+    <style>
+       body{
+        background-color:rgb(34, 30, 30); 
+        border-color: black;
+        border-style: solid;
+        border-width: 5px;
+       }
+       h1{
+        color: rgb(98, 155, 246);
+        padding: 10px;
+       }
+       ul{
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         color: aliceblue;
+       }
+       hr{
+        border-color:rgb(98, 155, 246);
+        border-style: solid;
+        border-width: 1px;
+       }
+       ol{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+        font-size:medium ;
+        color: aliceblue;
+       }
+       h1{
+        color: rgb(98, 155, 246);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        margin-left: 10px;
+       }
+    </style>
+    <h1>About Victoria Krist</h1>
+    <br>
+    <p style="margin-left :10px; color: aliceblue; font-family: Georgia,  'Times New Roman', Times, serif;">My Name is Victoria and i am <span style="color: rgba(251, 251, 31, 0.717);"> jolly, clumsy, and four-eyed.</span></p><br>
+    <hr><br>
+    <div class="header">
+        <h1>My Classes This Quartar</h1>
+        <ul>
+            <li>CSE 451-Operating Systems</li>
+            <li>CSE 471-Computer Design and Organization</li>
+            <li>PHYS 121-Physisc:Maganics</li>
+            <li>CSE 498-Research w/ prof.Luis Ceze</li>
+        </ul>
+
+        <div class="header1">
+            <h1>My Favourite Movies</h1>
+            <p style=" color:rgb(103, 95, 95); margin-left: 10px; font-family: 'Times New Roman', Times, serif;"><em>(I actually don't watch too many movies,so...here goes!)</em></p>
+            <ol>
+                <li>The Last 30 minutes of Forrest Gump <span style="color: rgb(240, 10, 10);"> (IMDB) </li></span>
+                <li>Star Trek Episode V and Zazu <span style="color: rgb(240, 10, 10);"> (IMDB) </li></span>
+                <li>Fight Club (not really But, I've seen like 3 movies total so this is my 3rd fave by technicality)<span style="color: rgb(240, 10, 10);">(IMDB)</li></span>
+            </ol>
+        </div>
+    </div>
+    <h1>My Moods</h1>
+
+    <table style="color: aliceblue; ">
+        <tr>
+            <td>Sad :</td>
+          <td><img src="download (3).jpeg" alt="Image 3" width="200" height="200"></td>
+          <td>Happy :</td><br>
+          <td><img src="download (4).jpeg" alt="Image 4" width="200" height="200"></td>
+        </tr>
+      </table>
+    
+<div class="header3">
+    <h1>Fun Facts About MY Neighbors</h1>
+    <ul>
+        <li>Sue Smith: <em>Effervesent</em> is a word that describes her.</li>
+        <li>Bill Thompson: Loves playing<em> Yu-Gi-Oh.</em></li>
+    </ul>
+</div>
+</body>
+</html>
