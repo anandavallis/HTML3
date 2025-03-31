@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+<body>
+    <style>
+		body {
+			font-family: Arial, sans-serif;
+			border-color: black;
+			border-style: solid;
+			border-width: 5px;
+		}
+		.header {
+			padding: 20px;
+			text-align: center;
+		}
+		.navbar ul{
+			background-color: #333;
+			color: #fff;
+			padding: 15px;
+			list-style-type: none;
+		}
+		section {
+			padding: 20px;
+			padding-left: 100px;
+		}
+		img {
+			width: 200px;
+			height: 200px;
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>My Exciting Website </h1>
+	</div>
+	<div class="navbar">
+		<ul>
+			<li>Home</li>
+			<li>Blog</li>
+			<li>About Us</li>
+			<li>Our History</li>
+			<li>Contacts</li>
+		</ul>
+	</div>
+	<section>
+		<h2>An Exciting Blog Post</h2>
+		<img src="images5.jpeg" alt="An image related to the blog post">
+
+		<p>The word parachute comes from the French words para and chute. Used together, they mean “to shield a fall.” The parachute is used in recreational, voluntary sector, 
+			<br>
+
+	    <p>Objects falling freely through the atmosphere are pulled toward the Earth by gravity. Free-falling objects can attain a terminal velocity, or top speed, of 118 or more miles an hour.The parachute is us 
+			and military setting after in the context of jumping from an aircraft.</p>
+			
+		<p>Physical Coordination and Motor Skills:The physical activity involved in parachute play helps develop gross motor skills, such as arm strength and coordination. Children learn to time their movements with the group, 
+			enhancing their spatial The parachute is us Once the parachute is rigid, the wing-like shape actually creates forward movement and lift. The top of the parachute has a bit of a hump shape to it, and that hump causes the air to travel farther over the top than it does under the flat bottom.
+			and military settings to reduce the risk of orthopaedic, head, and soft tissue injury after awareness and body control.</p>
+	</section>
+</body>
+</html>
