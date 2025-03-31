@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog page with sidebar</title>
+</head>
+<body>
+    <style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box; 
+		}
+		body{
+			background-color:rgb(80, 28, 223);
+			border-color: black;
+			border-style: solid;
+			border-width: 5px;
+			padding: 40px;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+		nav {
+			background-color: whitesmoke;
+			color: black;
+			padding: 30px; 	
+		}
+		 li,h1,ul {
+			display: inline;	
+			 padding: 5px;	
+		}
+		article {
+			 padding-top: 10px; 
+            padding: 30px; 
+			background-color: aliceblue;
+			top: 10px;	
+		} 
+	      p{
+			width: 550px;
+			padding-top: 10px;
+			padding: 10px;
+			
+		  }
+		aside{
+			background-color: yellowgreen;
+			padding: 30px;
+			margin-right: 40px;
+		    position: relative; 
+            float: right;
+            width: 250px;
+            bottom: 480px; 
+	
+			
+		}
+		 ul {
+			 margin:0;
+			 padding:0;																																																																																						
+		}
+
+		img{
+			width: 100%;
+			height: 300px;
+		
+		}
+		h3{
+			background-color: red;
+			color: white;
+			padding: 10px;
+			
+		} 
+	</style>
+</head>
+<body>
+	<div class="header">
+		<nav>
+		<h1>My Awesome Blog</h1>
+			 <ul style="margin-left: 60%;">
+				<li><u><a href="#">Home</a></u></li>
+				<li><u><a href="#">About</a></u></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<img src="computer6.png" alt="computer Image"> 
+	<main>
+		
+		<article>
+			<h2 style="color: purple;"><u>Title Of The First Blog</u></h2>
+			<p>By Azzi Ali</p><br>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+				Quis reprehenderit ab dolorum sit ipsa voluptatibus neque,
+				nemo libero sapiente error aliquam. Eum quis iste aliquam quia, perferendis 
+				suscipit eius iure quisquam est facilis, hic sed dolores! Fuga, reiciendis?
+				 Expedita rem itaque atque. 
+				Voluptatum soluta iure excepturi.</p>
+		</article>
+		<hr style="color: rgb(118, 118, 192);">
+		<article>
+			<h2 style="color: purple;"><u>Title Of The First Blog</u></h2>
+			<p>By Azzi Ali</p><br>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad incidunt, placeat rem doloribus illo illum quia itaque, a, quas qui eum eius recusandae.
+				 Quis obcaecati tempore consectetur natus praesentium animi modi perferendis harum porro sapiente doloribus placeat qui eius ipsa itaque vero, 
+				provident alias ut autem mollitia error, tenetur beatae.</p>
+		</article>
+		<hr style="color: rgb(118, 118, 192);">
+	</main>
+	<aside>
+		<h3>Useful Links</h3>
+		<ul style="color: black; font-family: sans-serif;">
+			<li><u>Azzi Ali.com</u></a></li>
+			<li><u>iLoveCoding.Org</u></a></li>
+		</ul>
+	</aside>
+</body>
+</html>
