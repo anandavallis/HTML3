@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+		body {
+			font-family: Arial, sans-serif;
+            text-align: center;
+		}
+        .header{
+            text-align: center;
+        }
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.gallery img {
+			width: 30%;
+			height: 200px;
+			margin: 5px;
+		}
+		.description {
+			padding: 10px;
+            text-align: center;
+		}
+		footer {
+			padding: 10px;
+			text-align: center;
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome To UI Photo Gallery</h1>
+    <hr>
+
+   <div class="header">
+    <h3>___________________<span>Welcome to UI Photo Gallery</span>_____________________</h3>
+   </div>
+	<div class="gallery">
+		<img src="tree1.jpeg" alt="Image 1">
+		<img src="tree2.jpeg" alt="Image 2">
+		<img src="tree3.jpeg" alt="Image 3">
+	</div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. consectetur minus suscipit voluptates facere, aliquam vitae aut commodi, atque accusantium doloremque assumenda laudantium quam? Non ipsum autem facilis? Nam odit sequi dignissimos hic voluptates necessitenim accusamus laboriosam, et excepturi quam rem.</p>
+    <hr>
+	<div class="description">
+		<h2>Description about the page</h2>
+		<p>This gallery showcases a selection of images from our latest collection. Each image is carefully crafted to capture the beauty and essence of the Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cumque laborum ducimus, in vel molestias, nemo distinctio culpa excepturi soluta optio eum quis veniam officia minima incidunt doloribus esse perspiciatis necessitatibus minus exercitationem unde facilis mollitia dolore. Natus, doloribus. Quia nihil tempora iste, nobis, in mollitia quaerat sequi facere alias aliquid maiores ea sapiente repudiandae velit fugit fuga porro. Cum.</p>
+        <hr>
+	</div>
+	<footer>
+		<p> &copy; 2023 My simple webpage.All rights reserved.</p>
+	</footer>
+</body>
+</html>
+
+</body>
+</html>
